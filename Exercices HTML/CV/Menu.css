@@ -1,0 +1,181 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+  font-family: cursive;
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+
+html {
+color:black;
+background-image: url("background.jpeg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@font-face {
+  font-family: Evogria;
+  src: local("Evogria"),
+       local("Evogria"),
+       url(Evogria.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("Roboto"),
+       local("Roboto"),
+       url(Roboto.otf);
+  font-weight: bold;
+}
+
+.namegr {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Evogria";
+  font-size: 60px;
+
+}
+
+.left-part{
+  position: relative;
+  top: 0px;
+  width: 50%;
+  background-color: #333;
+  margin-left: 20px;
+  border:2px solid grey;
+  margin-top: 10px;
+}
+
+.img1 {
+  position: absolute;
+  height: 50px;
+  top: 250px;
+  right: 60px;
+}
+
+.img2 {
+  position: absolute;
+  left: 800px;
+  height: 350px;
+  top: 250px;
+  border: 2px solid grey;
+}
+.under_boc{
+  color: rgb(0, 0, 0);
+  position: absolute;
+   width: 250px;
+   height: 100px;
+   right: 10px;
+   top: 300px;
+}
+.under_boc p {
+  border: 2px solid grey;
+  background-color: #333;
+  color: white;
+}
+
+.imgdiplome {
+  position: absolute;
+  top: 150px;
+  border: 2px solid grey;
+  width: 375px;
+  height: 200px;
+
+}
+
+.div2{
+  position: absolute;
+  left: 800px;
+  height: 350px;
+  top: 250px;
+  border: 2px solid grey;
+  background-color: inherit;
+  color: black;
+  width: 200px;
+}
+
+.logo2 {
+  width: 150px;
+  height: 50px;
+}
+
+.logo4 {
+  width: 150px;
+  height: 32px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+    top: 200px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+   opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+   background: #3B5998;
+   color: white;
+}
+
+/* Twitter */
+.fa-google {
+   background: #850313;
+   color: white;
+}
+
+.fa-linkedin {
+   background: #55ACEE;
+   color: white;
+}
+
+.lien10 {
+  text-decoration: none;
+  color: rgb(121, 0, 0);
+
+}
